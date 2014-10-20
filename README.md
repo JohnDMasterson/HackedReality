@@ -11,4 +11,7 @@ Instructions are located in the folder
 the pebble's accelerometer data. Comapnion app is needed on user's smartphone
 
 3) The PebbleTracking folder contains the pebble companion app from (2). The app gets the pebble's message, interprets the
-acclerometer data, and sends the data to the server in (1). 
+acclerometer data, and sends the data to the server in (1).
+To initialize this directory type:
+git submodule init
+git submodule update 
